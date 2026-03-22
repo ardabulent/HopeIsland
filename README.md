@@ -31,7 +31,7 @@ To test and run the project locally, please follow these steps :
 6. Press the **Play** button in the Unity Editor to start.
 
 ## 💻 Key Code Explanation 
-* **`BasitGorevManager.cs`:** Manages the progression of main objectives and puzzles within the game. It integrates dynamic difficulty adjustment (AI output) into the game by tracking the child's success/failure status in the task.
+* **`BasitGorevManager.cs`:** Follows tasks in the health routine.
 * **`Balloon.cs`:** Controls the behaviors (movement mechanics, popping) of the balloon objects appearing on the screen. It is responsible for transmitting the interaction data at the moment the child taps the balloon (for tremor calculation) to the main system.
 * **`BalloonSpawner.cs`:** Responsible for dynamically generating balloons in the scene. It optimizes the spawn frequency and speed of the balloons according to the "Difficulty State" data coming from MindSpore.
 * **`BackgroundMusic.cs`:** Manages the atmospheric music and sound effects of the application. It provides a smooth audio experience during transitions between menus and games.
